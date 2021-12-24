@@ -1,0 +1,15 @@
+name: "test"
+apiVersion: "autodeploy.v1"
+server:
+  ip: "127.0.0.1"
+etcd:
+  host:
+    - "localhost:2379"
+    - "localhost:2479"
+  watchList:
+    - "test.key"
+ftp:
+  host: "10.10.10.34"
+  user: "test"
+  password: "test"
+fileDir: "D:\\test\\AutoDeploy"
