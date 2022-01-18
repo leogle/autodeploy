@@ -2,12 +2,9 @@ package main
 
 import (
 	"go.etcd.io/etcd/clientv3"
-	"goclient/config"
-	"goclient/etcd"
-	"log"
 )
 
-func main() {
+/*func main() {
 	config.ReadConfig()
 	client := new(etcd.EtcdClient)
 	client.Put("test.key.subkey", "testval")
@@ -21,7 +18,7 @@ func main() {
 	//var val clientv3.WatchResponse
 	go readChan(watchChan)
 
-}
+}*/
 
 func readChan(watchChan clientv3.WatchChan) {
 	/*	for val := range watchChan {

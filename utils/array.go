@@ -2,6 +2,7 @@ package utils
 
 type AnyType interface{}
 
+/*
 func Map[T, S](items []T, action func(t T) S) []S {
 	size := len(items)
 	var array = make([]S, size)
@@ -45,3 +46,4 @@ func ForEach[T](items []T, action func(T)) {
 		action(item)
 	}
 }
+*/

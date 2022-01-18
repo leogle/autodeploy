@@ -13,6 +13,7 @@ type Config struct {
 	Server     ServerConfig `yaml:"server"`
 	FileDir    string       `yaml:"fileDir"`
 	Ftp        FtpConfig    `yaml:"ftp"`
+	WorkDir    string       `yaml:"workDir"`
 }
 
 // GetClusterKey 获取集群Key

@@ -4,6 +4,7 @@ import (
 	"time"
 )
 
+// Node worker node
 type Node struct {
 	Name        string    `json:"name"`
 	HostName    string    `json:"hostName"`

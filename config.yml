@@ -9,7 +9,8 @@ etcd:
   watchList:
     - "test.key"
 ftp:
-  host: "10.10.10.34"
+  host: "10.10.10.34:21"
   user: "test"
   password: "test"
-fileDir: "D:\\test\\AutoDeploy"
+fileDir: "D:\\test\\AutoDeploy\\"
+workDir: "D:\\test\\AutoDeploy\\"
